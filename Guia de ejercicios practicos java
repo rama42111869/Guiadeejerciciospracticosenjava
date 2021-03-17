@@ -1,0 +1,354 @@
+
+public class Ejercicio1 {
+
+	private int n;
+	private double a;
+	private String c;
+	
+	public int getN() {
+		return n;
+	}
+	public void setN(int n) {
+		this.n = n;
+	}
+	public double getA() {
+		return a;
+	}
+	public void setA(double a) {
+		this.a = a;
+	}
+	public String getC() {
+		return c;
+	}
+	public void setC(String c) {
+		this.c = c;
+	}
+	
+	@Override
+	public String toString() {
+		return "Ejercicio1 [n=" + this.getN() + ", a=" + this.getA() + ", c=" + this.getC() + "]";
+	}
+	
+}
+
+
+public class Ejercicio2 {
+
+	private int x;
+	private int y;
+	private double n;
+	private double m;
+	
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public int getY() {
+		return y;
+	}
+	public void setY(int y) {
+		this.y = y;
+	}
+	public double getN() {
+		return n;
+	}
+	public void setN(double n) {
+		this.n = n;
+	}
+	public double getM() {
+		return m;
+	}
+	public void setM(double m) {
+		this.m = m;
+	}
+	@Override
+	public String toString() {
+		return "Ejercicio2 [x=" + this.getX() + ", y=" + this.getY() + ", n=" + this.getN() + ", m=" + this.getM() + "]";
+	}
+	
+	
+}
+
+
+public class Ejercicio4 {
+
+	private int a;
+	private int b;
+	private int c;
+	private int d;
+	
+	public int getA() {
+		return a;
+	}
+	public void setA(int a) {
+		this.a = a;
+	}
+	public int getB() {
+		return b;
+	}
+	public void setB(int b) {
+		this.b = b;
+	}
+	public int getC() {
+		return c;
+	}
+	public void setC(int c) {
+		this.c = c;
+	}
+	public int getD() {
+		return d;
+	}
+	public void setD(int d) {
+		this.d = d;
+	}
+	@Override
+	public String toString() {
+		return "Ejercicio4 [a=" + this.getA() + ", b=" + this.getB() + ", c=" + this.getC() + ", d=" + this.getD() + "]";
+	}
+
+	///Funcion del ejercicio 5
+	public void esImpar(int iNumero) {
+		  if (iNumero%2!=0)
+		  {
+			System.out.println("\nEs impar\n");
+		  
+		  }else
+		  {
+			System.out.println("\nEs par\n");
+		}
+	}
+	///Funcion del ejercicio 6
+	public void posneg(int nro)
+	{
+		if(nro<0)
+		{
+			System.out.println("\nEs negativo\n");	
+		}
+		else if(nro>0)
+		{
+			System.out.println("\nEs positivo\n");			
+		}
+		else if(nro==0)
+		{
+			System.out.println("\nEs neutro\n");				
+		}
+	}
+	///Funcion b del ejercicio 7
+	int multiplos(int a,int b)
+	{
+		int total=a%b;
+		if(total==0)
+		{
+			  System.out.println(a + " es m�ltiplo de " + b);
+		}
+			  else
+			  {
+			  System.out.println(a + " NO es m�ltiplo de " + b);
+		}
+		return total;
+	}
+	
+	///Funcion a del ejercicio 7
+	public void mayora100(int nro)
+	{
+		if(nro<100)
+		{
+			System.out.println("\nEs menor a 100\n");	
+		}
+		else if(nro>100)
+		{
+			System.out.println("\nEs mayor a 100\n");			
+		}
+		else if(nro==100)
+		{
+			System.out.println("\nEs igual a 100\n");				
+		}
+	}
+	
+}
+
+
+import java.nio.charset.StandardCharsets;
+import java.util.Calendar;
+
+public class Prueba {
+	private static double a;
+	private static double b;
+	private static int d;
+	private static int e;
+	private static int f;
+	private static int g;
+	private static String c;
+	public static void main(String[] args) {
+	
+	System.out.println("\nEjercicio 1\n");	
+	Ejercicio1 e1=new Ejercicio1();
+	e1.setN(12);
+	e1.setA(12.5);
+	e1.setC("c");
+	System.out.println(e1.toString());
+	a = e1.getN()+e1.getA();
+	System.out.println("\nLa suma de n+a es= "+a);
+	b = e1.getN()-e1.getA();
+	System.out.println("\nLa resta de n-a es= "+b);
+	c=e1.getC();
+	byte[] bytes = c.getBytes(StandardCharsets.US_ASCII);
+    System.out.println("\nASCII Numeric Value: "+bytes[0]);
+	
+    System.out.println("\nEjercicio 2\n");	
+	Ejercicio2 e2=new Ejercicio2();
+	e2.setX(10);
+	e2.setY(17);
+	e2.setN(11.5);
+	e2.setM(15.5);
+	System.out.println(e2.toString());
+	a=e2.getY()+e2.getX()+e2.getM()+e2.getN();
+	System.out.println("\nLa suma de los 4 es= "+a);
+	b=e2.getY()-e2.getX()-e2.getM()-e2.getN();
+	System.out.println("\nLa resta de los 4 es= "+b);
+	
+    System.out.println("\nEjercicio 3\n");
+    e1.setN(0);
+    System.out.println("\nValor inicial de n= "+e1.getN());
+    e1.setN(77);
+    System.out.println("\nValor incrementado a "+e1.getN());
+    e1.setN(3);
+    System.out.println("\nValor reducido a "+e1.getN());
+    System.out.println("\nValor duplicado "+e1.getN()*2);
+    
+    System.out.println("\nEjercicio 4\n");
+	Ejercicio4 e4=new Ejercicio4();
+	e4.setA(1);
+	e4.setB(2);
+	e4.setC(3);
+	e4.setD(4);
+	System.out.println(e4.toString());
+	d=e4.getC();
+	e4.setB(d);
+	e=e4.getA();
+	e4.setC(e);
+	g=e4.getD();
+	e4.setA(g);
+	f=e4.getB();
+	e4.setD(f);
+	System.out.println("\n"+e4.toString());
+	
+    System.out.println("\nEjercicio 5\n");
+	Ejercicio4 e5=new Ejercicio4();
+	e5.setA(1);
+	d=e5.getA();
+	System.out.println("El nro "+e5.getA());
+	e5.esImpar(d);
+	
+    System.out.println("\nEjercicio 6\n");
+    e5.setB(0);
+    e=e5.getB();
+	System.out.println("El nro "+e5.getB());
+	e5.posneg(e);
+	
+    System.out.println("\nEjercicio 7\n");
+    e5.setC(7);
+    f=e5.getC();
+	System.out.println("El nro "+e5.getC());
+	e5.esImpar(f);
+	e5.posneg(f);
+	e5.mayora100(f);
+	e5.multiplos(f, 7);
+
+    System.out.println("\nEjercicio 8\n");
+    e1.setC("Ramiro");
+    System.out.println("\nBuenos dias "+e1.getC());
+    
+    System.out.println("\nEjercicio 9\n");
+    e1.setN(14);
+    System.out.println("El nro es "+e1.getN());
+    d=e1.getN()*2;
+    System.out.println("\nEl doble del nro es "+d);
+    e=e1.getN()*3;
+    System.out.println("\nEl triple del nro es "+e);
+	
+    System.out.println("\nEjercicio 10\n");
+    e1.setA(1);
+    a=e1.getA();
+    System.out.println("Grados en farenheid\t"+a);
+    b=(a-32)*5/9;
+    System.out.println("Grados en Celsius\t"+b);
+	
+    System.out.println("\nEjercicio 11\n");
+    e1.setA(10);
+    a=e1.getA();
+    System.out.println("Radio de la circunferencia "+a);
+    System.out.println("\nLongitud de la circunferencia "+2*Math.PI*a);
+    System.out.println("\nArea de la circunferencia "+Math.PI*(a*a));
+    
+    System.out.println("\nEjercicio 12\n");
+    e1.setA(10);
+    a=e1.getA();
+    System.out.println("Kilometros por hora "+a);
+    System.out.println("\nMetros por segundo  "+a*3.6);
+
+    System.out.println("\nEjercicio 13\n");
+    e2.setM(10);
+    a=e2.getM();
+    e2.setN(10);
+    b=e2.getN();
+    System.out.println("Cateto a "+a);
+    System.out.println("\nCateto b "+b);
+    System.out.println("\nLongitud de la hipotenusa "+(a*a)+(b*b));
+    
+    System.out.println("\nEjercicio 14\n");
+    e1.setA(10);
+    a=e1.getA();
+    System.out.println("Radio de la esfera "+a);
+    System.out.println("\nVolumen de la esfera "+(4/3)*Math.PI*(a*a*a));
+    
+    System.out.println("\nEjercicio 15\n");
+    e2.setM(10);
+    a=e2.getM();
+    e2.setN(10);
+    b=e2.getN();
+    System.out.println("Base "+a);
+    System.out.println("\nAltura b "+b);
+    System.out.println("\nArea del triangulo "+(a*b)/2);
+    
+    System.out.println("\nEjercicio 16\n");
+    e1.setN(123);
+    a=e1.getN();
+    System.out.println("Nro "+a+"\n");
+	String parse = String.valueOf(a);
+	char[]array=parse.toCharArray();
+	for(int i=0; i<array.length; i++)
+	{
+		System.out.println(array[i]);
+	}
+
+    System.out.println("\nEjercicio 17\n");
+    e1.setN(123);
+    a=e1.getN();
+    System.out.println("Nro "+a+"\n");
+	String parse2 = String.valueOf(a);
+	char[]array2=parse2.toCharArray();
+	for(int i=0; i<array2.length; i++)
+	{
+	if(array2[i]%2!=0)
+	{
+		System.out.println(array[i]);
+	}
+	}
+	
+    System.out.println("\nEjercicio 18\n");
+    d=Calendar.HOUR;
+    e=Calendar.MINUTE;
+    f=Calendar.SECOND;
+    if(d<=12 && d>=0 && e>=0 && e<=60 && f>=0 && f<=60)
+    {
+    System.out.println("\nHora valida\t");
+    System.out.println(d + ":" + e+ ":" + f);
+	}
+    else {
+    System.out.println("\nHora incorrecta\n");
+    }
+	}
+}
