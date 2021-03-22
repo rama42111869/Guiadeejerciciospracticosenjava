@@ -1,0 +1,304 @@
+
+public class Ejercicio1 {
+
+	private double ancho;
+	private double alto;
+	
+	public double getAncho() {
+		return ancho;
+	}
+	public void setAncho(double ancho) {
+		this.ancho = ancho;
+	}
+	public double getAlto() {
+		return alto;
+	}
+	public void setAlto(double alto) {
+		this.alto = alto;
+	}
+	
+	public double perimetro(double a,double b)
+	{
+		return 2*a+2*b;
+	}
+	
+	public double area(double a,double b)
+	{
+		return a*b;
+	}
+
+}
+
+
+public class Ejercicio2 {
+	
+	private int dni;
+	private String nombre;
+	private String apellido;
+	private double salario;
+	
+	public int getDni() {
+		return dni;
+	}
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getApellido() {
+		return apellido;
+	}
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+	public double getSalario() {
+		return salario;
+	}
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
+	public double salarioanual(double salario)
+	{
+		return salario*12;
+	}
+	
+	public double aumentarsalario(double salarioanual,double porcentaje)
+	{
+		return salarioanual+(salarioanual*porcentaje);
+	}
+	@Override
+	public String toString() {
+		return "Datos del empleado/a [dni=" + this.getDni() + ", nombre=" + this.getNombre() + ", apellido=" + this.getApellido()+ ", salario=" + this.getSalario()+ "]";
+	}
+	
+	
+}
+
+
+public class Ejercicio3 {
+	
+	private int id;
+	private String descripcion;
+	private int cantidad;
+	private int preciounitario;
+
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+	public int getCantidad() {
+		return cantidad;
+	}
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+	public int getPreciounitario() {
+		return preciounitario;
+	}
+	public void setPreciounitario(int preciounitario) {
+		this.preciounitario = preciounitario;
+	}
+
+	@Override
+	public String toString() {
+		return "Item de venta [id=" + this.getId() + ", descripcion=" + this.getDescripcion() + ", cantidad=" + this.getCantidad() + ", preciounitario="
+				+ this.getPreciounitario();
+	}
+
+	public int calculartotal(int precio,int cantidad)
+	{
+		return precio*cantidad;
+	}
+	
+}
+
+
+public class Ejercicio4 {
+
+	private int id;
+	private String nombre;
+	private double balance;
+	private double balance2;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	
+	public double getBalance2() {
+		return balance2;
+	}
+	public void setBalance2(double balance2) {
+		this.balance2 = balance2;
+	}
+	
+	public double credito(double balance,double balance2)
+	{
+		return balance+balance2;
+	}
+	
+	public void  debito(double balance,double balance2,double a)
+	{
+		a=balance-balance2;
+		if(a>=0)
+		{
+			System.out.println("\nBalance luego de la sustraccion "+a+"\n");
+			System.out.println("\nUsted ha substraido "+balance2+"\n");
+		}
+			else if(a<0)
+		{
+		a=0;
+		System.out.println("\nLa cuenta no es suficiente para cubrir la sustracci�n \n");		
+		System.out.println("\nBalance "+balance);
+		System.out.println("\nCantidad deseada para subtraer "+balance2);		
+		}
+	}
+	@Override
+	public String toString() {
+		return "Cuenta bancaria [id=" + this.getId() + ", nombre=" + this.getNombre() + ", balance=" + this.getBalance() + "]";
+	}
+
+	
+}
+
+import java.util.Calendar;
+
+public class Ejercicio5 {
+
+	public void tiempo(int h,int m,int s)
+	{
+	h=Calendar.HOUR_OF_DAY;
+	m=Calendar.MINUTE;
+	s=Calendar.SECOND;
+	System.out.println(h+":"+m+":"+s);
+	}
+}
+
+
+
+public class Prueba {
+
+	private static double a;
+	private static double b;
+	private static double c;
+	private static double d;
+	private static double e;
+	private static double f;
+	private static int g;
+	private static int h;
+	private static int i;
+
+	public static void main(String[] args) {
+		
+		Ejercicio1 e1=new Ejercicio1();
+		e1.setAlto(12.5);
+		e1.setAncho(24.5);
+		a=e1.getAlto();
+		b=e1.getAncho();
+		c=e1.area(a, b);
+		d=e1.perimetro(a, b);
+	System.out.println("Ejercicio 1");
+	System.out.println("\nRectangulo 1");
+	System.out.println("\nAlto "+a);
+	System.out.println("\nAncho "+b);
+	System.out.println("\nArea "+c);
+	System.out.println("\nPerimetro "+d);
+	e1.setAlto(6.5);
+	e1.setAncho(12.5);
+	a=e1.getAlto();
+	b=e1.getAncho();
+	System.out.println("\nRectangulo 2");
+	System.out.println("\nAlto "+a);
+	System.out.println("\nAncho "+b);
+	System.out.println("\nArea "+c);
+	System.out.println("\nPerimetro "+d);
+	
+	System.out.println("\nEjercicio 2");
+	Ejercicio2 e2=new Ejercicio2();
+	e2.setApellido("Guti�rrez");
+	e2.setNombre("Carlos");
+	e2.setDni(23456345);
+	e2.setSalario(25000);
+	Ejercicio2 e3=new Ejercicio2();
+	e3.setApellido("S�nchez");
+	e3.setNombre("Ana");
+	e3.setDni(34234123);
+	e3.setSalario(27500);
+	System.out.println("Empleado 1\n"+e2.toString());
+	System.out.println("Empleada 2\n"+e3.toString());
+	a=e2.getSalario();
+	b=e3.getSalario();
+	c=e2.salarioanual(a);
+	d=e3.salarioanual(b);
+	System.out.println("\nSalario anual del empleado 1 "+c);
+	System.out.println("\nSalario anual de la empleada 2 "+d);	
+	e=e2.aumentarsalario(c, 0.15);
+	f=e3.aumentarsalario(d, 0.15);
+	System.out.println("\nSalario anual aumentado del empleado 1 "+e);
+	System.out.println("\nSalario anual aumentado del empleado 2 "+f);	
+	
+	System.out.println("\nEjercicio 3");
+	Ejercicio3 e4=new Ejercicio3();
+	e4.setId(19216810);
+	e4.setCantidad(9);
+	e4.setDescripcion("Pocion curativa. Esta pocion cura 100 puntos de vida");
+	e4.setPreciounitario(100);
+	h=e4.getPreciounitario();
+	i=e4.getCantidad();
+	g=e4.calculartotal(h, i);
+	System.out.println(e4.toString()+", Total "+g+" ]");
+	
+	System.out.println("\nEjercicio 4");
+	Ejercicio4 e5=new Ejercicio4();
+	e5.setId(192456789);
+	e5.setNombre("Galicia");
+	e5.setBalance(15000);
+	System.out.println(e5.toString());	
+	a=e5.getBalance();
+	e5.setBalance2(2500);
+	b=e5.getBalance2();
+	c=e5.credito(a, b);
+	System.out.println("\nOperacion de credito con 2500: "+c);
+	e5.setBalance2(1500);
+	b=e5.getBalance2();
+	System.out.println("\nOperacion de compra de 1500: ");
+	e5.debito(a, b, c);
+	e5.setBalance2(30000);
+	b=e5.getBalance2();
+	System.out.println("\nOperacion de compra de 30000: ");
+	e5.debito(a, b, c);
+	
+	
+	System.out.println("\nEjercicio 5");
+	Ejercicio5 e6=new Ejercicio5();
+	e6.tiempo(g, h, i);
+	}
+
+}
