@@ -9,22 +9,18 @@ public class Menu {
         boolean salir = false;
         int opcion; //Guardaremos la opcion del usuario
  
-        while (!salir) {
- 
-            System.out.println("1. Menu del administrador");
-            System.out.println("2. Menu del usuario ");
+        	System.out.println("Gran DT Masters");
+            System.out.println("1. Ingresar");
+            System.out.println("2. Registrarse");
             System.out.println("3. Salir");
             try {
- 
-                System.out.println("Escribe una de las opciones");
                 opcion = sn.nextInt();
- 
                 switch (opcion) {
                     case 1:
-                        System.out.println("Menu del administrador");
+                        System.out.println("1");
                         break;
                     case 2:
-                        System.out.println("Menu del usuario");
+                        System.out.println("Registro");
                         break;
                     case 3:
                         salir = true;
@@ -33,9 +29,7 @@ public class Menu {
                         System.out.println("\nIngrese una opcion valida");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Debes elegir solo 1");
                 sn.next();
-            }
         }
     }
 }
