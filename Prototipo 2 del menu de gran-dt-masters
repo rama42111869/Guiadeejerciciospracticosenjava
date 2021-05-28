@@ -11,9 +11,9 @@ public class Menu {
             System.out.println("1. Ingresar");
             System.out.println("2. Registrarse");
             System.out.println("3. Salir");
-                opcion = sn.nextInt();
                 do
                 {
+                    opcion = sn.nextInt();
                 switch (opcion) {
                     case 1:
                         System.out.println("Ingreso");
@@ -26,7 +26,6 @@ public class Menu {
                     default:
                         System.out.println("\nIngrese una opcion valida");
                 }
-                sn.next();
         System.out.println("Salir? si(1) o no(0)");
         s=sn.nextInt();
         }while(s==0);
