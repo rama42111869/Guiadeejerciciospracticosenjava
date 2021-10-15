@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automarket</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <link rel="icon" type="image/png" href="descarga.png" />
+</head>
+<body>
+<section class="home">
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Home</button>
+  <div class="dropdown-child">
+<a href="Automarket 2.html">Inicio</a>
+ <a href="Ofertas 2.html">Ofertas</a>
+<a href="Descuentos 2.html">Descuentos</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Cerrar sesion</button>
+  <div class="dropdown-child">
+    <a href="Automarket.html">Salir</a>
+  </div>
+</div></div></div>
+</section>
+<br>
+<br>
+<header>
+<div class="in-flex">
+<h1 align="center">Automarket</h1>
+  <div class="carrusel">
+    <ul class="carrusel-fotos">
+      <li id="foto1"><img src="images.jpg" alt=""></li>
+      <li id="foto2"><img src="images (1).jpg" alt=""></li>
+      <li id="foto3"><img src="images (2).jpg" alt=""></li>
+	  <li id="foto4"><img src="images (3).jpg" alt=""></li>
+	  <li id="foto5"><img src="images (4).jpg" alt=""></li>
+	  	  <li id="foto6"><img src="images (5).jpg" alt=""></li>
+    </ul>
+    <ul class="carrusel-menu">
+      <li><a href="#foto1"><img src="images.jpg" alt=""></a></li>
+      <li><a href="#foto2"><img src="images (1).jpg" alt=""></a></li>
+      <li><a href="#foto3"><img src="images (2).jpg" alt=""></a></li>
+      <li><a href="#foto4"><img src="images (3).jpg" alt=""></a></li>
+      <li><a href="#foto5"><img src="images (4).jpg" alt=""></a></li>
+      <li><a href="#foto6"><img src="images (5).jpg" alt=""></a></li>
+    </ul>
+  </div>
+    </div>
+ </header>
+ <footer>
+<section class="home">
+<div class="in-flex">
+<div class="contenedor-inputs">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ante cualquier consulta</button>
+  <div class="dropdown-child">
+		<p>Nos encontramos en Av. Colon 4578</p>
+	    <p>Llame a los siguientes nros: 486-8797/2234557891</p>
+		<p>Nuestro mail es Automarket@gmail.com</p>
+  </div>
+</div></div></div>
+</div>
+</div>
+</section>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automarket</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <link rel="icon" type="image/png" href="descarga.png" />
+</head>
+<body>
+<section class="home">
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Home</button>
+  <div class="dropdown-child">
+<a href="Automarket.html">Inicio</a>
+ <a href="Ofertas.html">Ofertas</a>
+<a href="Descuentos.html">Descuentos</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Registro</button>
+  <div class="dropdown-child">
+    <a href="Formulario.html">Registrese</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ingreso</button>
+  <div class="dropdown-child">
+    <a href="Ingreso.html">Ingrese</a>
+  </div>
+</div></div></div>
+</section>
+<br>
+<br>
+<header>
+<div class="in-flex">
+<h1 align="center">Automarket</h1>
+  <div class="carrusel">
+    <ul class="carrusel-fotos">
+      <li id="foto1"><img src="images.jpg" alt=""></li>
+      <li id="foto2"><img src="images (1).jpg" alt=""></li>
+      <li id="foto3"><img src="images (2).jpg" alt=""></li>
+	  <li id="foto4"><img src="images (3).jpg" alt=""></li>
+	  <li id="foto5"><img src="images (4).jpg" alt=""></li>
+	  	  <li id="foto6"><img src="images (5).jpg" alt=""></li>
+    </ul>
+    <ul class="carrusel-menu">
+      <li><a href="#foto1"><img src="images.jpg" alt=""></a></li>
+      <li><a href="#foto2"><img src="images (1).jpg" alt=""></a></li>
+      <li><a href="#foto3"><img src="images (2).jpg" alt=""></a></li>
+      <li><a href="#foto4"><img src="images (3).jpg" alt=""></a></li>
+      <li><a href="#foto5"><img src="images (4).jpg" alt=""></a></li>
+      <li><a href="#foto6"><img src="images (5).jpg" alt=""></a></li>
+    </ul>
+  </div>
+    </div>
+ </header>
+ <footer>
+<section class="home">
+<div class="in-flex">
+<div class="contenedor-inputs">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ante cualquier consulta</button>
+  <div class="dropdown-child">
+		<p>Nos encontramos en Av. Colon 4578</p>
+	    <p>Llame a los siguientes nros: 486-8797/2234557891</p>
+		<p>Nuestro mail es Automarket@gmail.com</p>
+  </div>
+</div></div></div>
+</div>
+</div>
+</section>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automarket</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <link rel="icon" type="image/png" href="descarga.png" />
+</head>
+<body>
+<section class="home">
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Home</button>
+  <div class="dropdown-child">
+<a href="Automarket 2.html">Inicio</a>
+ <a href="Ofertas 2.html">Ofertas</a>
+<a href="Descuentos 2.html">Descuentos</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Cerrar sesion</button>
+  <div class="dropdown-child">
+    <a href="Automarket.html">Salir</a>
+  </div>
+</div></div></div>
+</section>
+<br>
+<br>
+<header>
+<div class="in-flex">
+<h1 align="center">Automarket</h1>
+  <div class="carrusel">
+    <ul class="carrusel-fotos">
+      <li id="foto1"><img src="descarga 5.png" alt=""></li>
+      <li id="foto2"><img src="descarga 6.png" alt=""></li>
+      <li id="foto3"><img src="descarga 7.png" alt=""></li>
+    </ul>
+    <ul class="carrusel-menu">
+      <li><a href="#foto1"><img src="descarga 5.png" alt=""></a></li>
+      <li><a href="#foto2"><img src="descarga 6.png" alt=""></a></li>
+      <li><a href="#foto3"><img src="descarga 7.png" alt=""></a></li>
+    </ul>
+  </div>
+    </div>
+ </header>
+ <footer>
+<section class="home">
+<div class="in-flex">
+<div class="contenedor-inputs">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ante cualquier consulta</button>
+  <div class="dropdown-child">
+		<p>Nos encontramos en Av. Colon 4578</p>
+	    <p>Llame a los siguientes nros: 486-8797/2234557891</p>
+		<p>Nuestro mail es Automarket@gmail.com</p>
+  </div>
+</div></div></div>
+</div>
+</div>
+</section>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automarket</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <link rel="icon" type="image/png" href="descarga.png" />
+</head>
+<body>
+<section class="home">
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Home</button>
+  <div class="dropdown-child">
+<a href="Automarket.html">Inicio</a>
+ <a href="Ofertas.html">Ofertas</a>
+<a href="Descuentos.html">Descuentos</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Registro</button>
+  <div class="dropdown-child">
+    <a href="Formulario.html">Registrese</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ingreso</button>
+  <div class="dropdown-child">
+    <a href="Ingreso.html">Ingrese</a>
+  </div>
+</div></div></div>
+</section>
+<br>
+<br>
+<header>
+<div class="in-flex">
+<h1 align="center">Automarket</h1>
+  <div class="carrusel">
+    <ul class="carrusel-fotos">
+      <li id="foto1"><img src="descarga 5.png" alt=""></li>
+      <li id="foto2"><img src="descarga 6.png" alt=""></li>
+      <li id="foto3"><img src="descarga 7.png" alt=""></li>
+    </ul>
+    <ul class="carrusel-menu">
+      <li><a href="#foto1"><img src="descarga 5.png" alt=""></a></li>
+      <li><a href="#foto2"><img src="descarga 6.png" alt=""></a></li>
+      <li><a href="#foto3"><img src="descarga 7.png" alt=""></a></li>
+    </ul>
+  </div>
+    </div>
+ </header>
+ <footer>
+<section class="home">
+<div class="in-flex">
+<div class="contenedor-inputs">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ante cualquier consulta</button>
+  <div class="dropdown-child">
+		<p>Nos encontramos en Av. Colon 4578</p>
+	    <p>Llame a los siguientes nros: 486-8797/2234557891</p>
+		<p>Nuestro mail es Automarket@gmail.com</p>
+  </div>
+</div></div></div>
+</div>
+</div>
+</section>
+</footer>
+</body>
+</html>
+*{
+ padding: 0px;
+ margin: 0px;
+ font-family: Century Gothic;
+}
+
+body{
+	background-color: #ededed;
+}
+
+.home{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.h1{
+	color: #fff;
+	text-align: center;
+}
+
+.form-register{
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	border-radius: 7px;
+}
+
+.form-titulo{
+	background: light blue;
+	color: #fff;
+    padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 5px solid crimson;
+}
+
+.input-60{
+	width: 70%;
+}
+
+.btn-enviar{
+		border-bottom: 5px solid crimson;
+	background:blue;
+	color:white;
+	 padding: 10px;
+}
+
+.in-flex{
+	flex: 1;
+	min-width: 250px;
+}
+
+.in-flex first-child{
+	flex: 2;
+	padding: 25px;
+	background-color: #fff;
+	margin: 20px;
+	margin-bottom: 0px;
+}
+
+.in-flex div{
+	padding: 25px;
+	background-color: #fff;
+	margin: 20px;
+}
+
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    margin-top:10px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 100px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+.carrusel {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.carrusel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1030px;
+  /* max-width: 510px; */
+  scroll-behavior: smooth;
+}
+
+.carrusel-fotos {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+}
+
+.carrusel-fotos img {
+
+  border: 4px white;
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.carrusel-menu {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .carrusel-fotos {
+    overflow: hidden;
+  }
+
+  .carrusel-fotos img {
+    width: 500px;
+    height: 400px;
+  }
+  .carrusel-menu {
+    display: block;
+  }
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 50px;
+    height: 40px;
+    border: 10px white;
+  }
+  .carrusel-menu img:hover {
+    border: none;
+  }
+}
+
+p {
+  text-align: center;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automarket</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <link rel="icon" type="image/png" href="descarga.png" />
+</head>
+<body>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Home</button>
+  <div class="dropdown-child">
+    <a href="Automarket.html">Inicio</a>
+  </div>
+</div></div></div>
+<form action="Ingreso.html" method="post">
+<div class="in-flex">
+<div class="contenedor-inputs">
+<div class="in-flex">
+<h1 align="center">Registro</h1>
+<br><br>
+<input type="text" name="Nombre" placeholder="Nombre" class="input-60" required>
+<br><br>
+<input type="text" name="Apellido" placeholder="Apellido" class="input-60" required>
+<br><br>
+<input type="text" name="Provincia" placeholder="Provincia" class="input-60" required>
+<br><br>
+<input type="text" name="Email" placeholder="Email" class="input-60" required>
+<br><br>
+<input type="password" name="Contraseña" placeholder="Clave" class="input-60" required>
+<input type="submit" value="Enviar" class="btn-enviar" required>
+</div>
+</div>
+</form>
+<div class="contenedor-inputs">
+<div class="in-flex">
+<p>Direccion: Av. Colon 4789</p>
+<p>Mail: Automarket@gmail.com</p>
+<p>Telefono: 489-7894</p>
+</div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automarket</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <link rel="icon" type="image/png" href="descarga.png" />
+</head>
+<body>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Home</button>
+  <div class="dropdown-child">
+    <a href="Automarket 2.html">Inicio</a>
+  </div>
+</div></div></div>
+<form action="Automarket 2.html" method="post">
+<div class="in-flex">
+<div class="contenedor-inputs">
+<div class="in-flex">
+<h1 align="center">Ingreso</h1>
+<br><br>
+<input type="text" name="Email" placeholder="Email" class="input-60" required>
+<br><br>
+<input type="password" name="Password" placeholder="Clave" class="input-60" required>
+<input type="submit" value="Enviar" class="btn-enviar" required>
+</div>
+</div>
+</form>
+<div class="contenedor-inputs">
+<div class="in-flex">
+<p>Direccion: Av. Colon 4789</p>
+<p>Mail: Automarket@gmail.com</p>
+<p>Telefono: 489-7894</p>
+</div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automarket</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <link rel="icon" type="image/png" href="descarga.png" />
+</head>
+<body>
+<section class="home">
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Home</button>
+  <div class="dropdown-child">
+<a href="Automarket 2.html">Inicio</a>
+ <a href="Ofertas 2.html">Ofertas</a>
+<a href="Descuentos 2.html">Descuentos</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Cerrar sesion</button>
+  <div class="dropdown-child">
+    <a href="Automarket.html">Salir</a>
+  </div>
+</div></div></div>
+</section>
+<br>
+<br>
+<header>
+<div class="in-flex">
+<h1 align="center">Automarket</h1>
+  <div class="carrusel">
+    <ul class="carrusel-fotos">
+      <li id="foto1"><img src="descarga 2.png" alt=""></li>
+      <li id="foto2"><img src="descarga 3.png" alt=""></li>
+      <li id="foto3"><img src="descarga 4.png" alt=""></li>
+    </ul>
+    <ul class="carrusel-menu">
+      <li><a href="#foto1"><img src="descarga 2.png" alt=""></a></li>
+      <li><a href="#foto2"><img src="descarga 3.png" alt=""></a></li>
+      <li><a href="#foto3"><img src="descarga 4.png" alt=""></a></li>
+    </ul>
+  </div>
+    </div>
+ </header>
+ <footer>
+<section class="home">
+<div class="in-flex">
+<div class="contenedor-inputs">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ante cualquier consulta</button>
+  <div class="dropdown-child">
+		<p>Nos encontramos en Av. Colon 4578</p>
+	    <p>Llame a los siguientes nros: 486-8797/2234557891</p>
+		<p>Nuestro mail es Automarket@gmail.com</p>
+  </div>
+</div></div></div>
+</div>
+</div>
+</section>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automarket</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <link rel="icon" type="image/png" href="descarga.png" />
+</head>
+<body>
+<section class="home">
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Home</button>
+  <div class="dropdown-child">
+<a href="Automarket.html">Inicio</a>
+ <a href="Ofertas.html">Ofertas</a>
+<a href="Descuentos.html">Descuentos</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Registro</button>
+  <div class="dropdown-child">
+    <a href="Formulario.html">Registrese</a>
+  </div>
+</div></div></div>
+<div class="in-flex">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ingreso</button>
+  <div class="dropdown-child">
+    <a href="Ingreso.html">Ingrese</a>
+  </div>
+</div></div></div>
+</section>
+<br>
+<br>
+<header>
+<div class="in-flex">
+<h1 align="center">Automarket</h1>
+  <div class="carrusel">
+    <ul class="carrusel-fotos">
+      <li id="foto1"><img src="descarga 2.png" alt=""></li>
+      <li id="foto2"><img src="descarga 3.png" alt=""></li>
+      <li id="foto3"><img src="descarga 4.png" alt=""></li>
+    </ul>
+    <ul class="carrusel-menu">
+      <li><a href="#foto1"><img src="descarga 2.png" alt=""></a></li>
+      <li><a href="#foto2"><img src="descarga 3.png" alt=""></a></li>
+      <li><a href="#foto3"><img src="descarga 4.png" alt=""></a></li>
+    </ul>
+  </div>
+    </div>
+ </header>
+ <footer>
+<section class="home">
+<div class="in-flex">
+<div class="contenedor-inputs">
+<div><div class="dropdown">
+  <button class="mainmenubtn">Ante cualquier consulta</button>
+  <div class="dropdown-child">
+		<p>Nos encontramos en Av. Colon 4578</p>
+	    <p>Llame a los siguientes nros: 486-8797/2234557891</p>
+		<p>Nuestro mail es Automarket@gmail.com</p>
+  </div>
+</div></div></div>
+</div>
+</div>
+</section>
+</footer>
+</body>
+</html>
